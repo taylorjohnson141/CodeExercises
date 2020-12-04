@@ -1,5 +1,8 @@
-
-
+// description
+//Given an integer array arr, 
+//return true if there are three consecutive odd numbers in the array. 
+//Otherwise, return false.
+ 
 var threeConsecutiveOdds = function(arr) {
   for(let i = 0 ; i< arr.length; i++){
       console.log('num,arr 1',i,arr[i] % 2 !== 0 )
