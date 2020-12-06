@@ -1,3 +1,6 @@
+//description (only works for numbers that don't turn into scientifc notation)
+//Given an integer n, return the number of trailing zeroes in n!
+
 var trailingZeroes = function(n) {
   if(n ===0){
       return 0
