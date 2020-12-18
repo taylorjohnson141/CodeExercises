@@ -1,9 +1,9 @@
+//Count the number of prime numbers less than a non-negative number, n.
+
+
 var countPrimes = function(n) {
   let nums =0
   for(let i = 0; i<n;i++){
-      if(i%2 ===0 && i!==2){
-          continue
-      }
    nums += isPrime(i)
   }
   return nums
