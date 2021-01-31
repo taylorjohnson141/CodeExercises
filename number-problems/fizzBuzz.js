@@ -11,9 +11,7 @@ var fizzBuzz = function(n) {
       }else if(i %3 === 0 ){
           arr.push("Fizz")
           
-      }
-      else if( i %5 === 0){
-          console.log(i)
+      } else if( i %5 === 0){
           arr.push('Buzz')
           
       }
