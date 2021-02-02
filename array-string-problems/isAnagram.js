@@ -1,0 +1,6 @@
+var isAnagram = function(s, t) {
+  let sArr = s.split('').sort().join('')
+  let tArr = t.split('').sort().join('')
+  
+  return sArr === tArr
+  };
