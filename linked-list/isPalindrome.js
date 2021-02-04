@@ -1,3 +1,5 @@
+//Given a singly linked list, determine if it is a palindrome.
+
 var isPalindrome = function(head) {
   let arr = []
   let currhead = head
