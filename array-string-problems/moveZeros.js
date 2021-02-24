@@ -1,3 +1,7 @@
+// Given an array nums, write a function to move all 0's to the end of it 
+// while maintaining the relative order of the non-zero elements.
+
+
 var moveZeroes = function(nums) {
   for(let i = nums.length; i>=0;i--){
       if(nums[i] === 0){
